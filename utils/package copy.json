@@ -1,0 +1,18 @@
+{
+  "name": "utils",
+  "version": "1.0.0",
+  "description": "tooling for debugging nft collections for subgraphs on NEAR",
+  "main": "./utils/scripts/view-contract-methods.js",
+  "scripts": {
+    "test": "node ./scripts/TEMPLATES/view-contract-methods.js"
+  },
+  "keywords": [],
+  "author": "Ryan Strawser",
+  "license": "ISC",
+  "dependencies": {
+    "near-api-js": "^0.44.2",
+    "near-contract-parser": "^0.1.4"
+  }
+}
+
+//"node ./scripts/TEMPLATES/view-contract-methods.js"
